@@ -2,12 +2,13 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Web Page</title>
+        <title>AnubhavJoshi Portfolio</title>
         <link rel="stylesheet" href="assets/css/styles.css">
     </head>
     <body>
-        <nav id = "desktop.nav">
+        <nav id = "desktop-nav">
             <div class = "logo"> ANUBHAV JOSHI</div>
             <div>
                 <ul class="nav-links">
@@ -16,8 +17,27 @@
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
+                </ul>
             </div>
         </nav>
-        <script src="script.js"></script>
+        <nav id="hamburger-nav">
+            <div class="logo">ANUBHAV JOSHI</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="togglemenu()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+                <div class="menu-links">
+                    <ul>
+                        <li><a href="#home" onclick="togglemenu()">Home</a></li>
+                        <li><a href="#about" onclick="togglemenu()">About</a></li>
+                        <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                        <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                        <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+                    </ul>
+            </div>
+        </div>
+
     </body>
 </html>
