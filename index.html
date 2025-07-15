@@ -4,8 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>AnubhavJoshi Portfolio</title>
-        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>AnubhavJoshi | Portfolio</title>
         <link rel="stylesheet" href="assets/css/styles.css">
     </head>
     <body>
@@ -14,7 +13,6 @@
             <div>
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -25,88 +23,91 @@
         <nav id="hamburger-nav">
             <div class="logo">ANUBHAV JOSHI</div>
             <div class="hamburger-menu">
-                <div class="hamburger-icon" onclick​="togglemenu()">
+                <div class="hamburger-icon" onclick="togglemenu()">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
                 <div class="menu-links">
-                <ul>
-                    <li><a href="hashtag#home" onclick​="togglemenu()">Home</a></li>
-                    <li><a href="hashtag#about" onclick​="togglemenu()">About</a></li>
-                    <li><a href="hashtag#experience" onclick​="togglemenu()">Experience</a></li>
-                    <li><a href="hashtag#projects" onclick​="togglemenu()">Projects</a></li>
-                    <li><a href="hashtag#contact" onclick​="togglemenu()">Contact</a></li>
-                <ul>
-            <div>
-        </div>
+                  <ul>
+                    <li><a href="#home" onclick="togglemenu()">Home</a></li>
+                    <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
         </nav>
         <section id="profile">
             <div class="section_pic-container">
             <img src="assets/media/AnubhavJoshi_picture.jpeg" alt="Anubhav Joshi profile">
             </div>
+            
             <div class="section_text">
-            <p>Data Scientist</p>
+            <p>Lead Data Scientist</p>
             <p>Welcome to my portfolio!</p>
+                 <p>Welcome to my portfolio!</p>
+                      <p>Welcome to my portfolio!</p>
+                           <p>Welcome to my portfolio!</p>
+                                <p>Welcome to my portfolio!</p>
             <div class="btn-container">
             <button class="btn btn-color-2"
             onclick​="window.open('./assets/resume_AJ.pdf')">Download CV</button>
-            <button class="btn btn-color-1" onclick​="location.href='./hashtag#contact'">
+            <button class="btn btn-color-1" onclick​="location.href='./#contact'">
             Contact Info
             </button>
         </div>
-        </div id="socials-container">
-            <a href="https://www.linkedin.com/" 
-            aria-label="My LinkedIn Profile">
-            <img src="./assets/media/linkedin.png" 
-            alt="LinkedIn Icon" 
-            class="icon">
-            </a>
-
-            <a href="https://www.github.com/" 
-            aria-label="My Github Profile">
-            <img src="./assets/media/GitHub.png" 
-            alt="GitHub Icon" 
-            class="icon">
-            </a>
+            <div id="socials-container">
+            <img
+                src="./assets/media/linkedin.png"
+                alt="LinkedIn Icon"
+                class="icon"
+                style="cursor:pointer"
+                onclick="window.open('https://www.linkedin.com/', '_blank')"
+                aria-label="My LinkedIn Profile"
+              >
+            <img
+                src="./assets/media/GitHub.png"
+                alt="GitHub Icon"
+                class="icon"
+                style="cursor:pointer"
+                onclick="window.open('https://www.github.com/', '_blank')"
+                aria-label="My Github Profile"
+              >
             </div>
         </div>
     </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
+
+     <section id="experience">
+      <h1 class="title">Experience</h1>
       <div class="section-container">
-        
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-           
-                          <h3>Experience</h3>
+        <div class="details-container">
+              <h3>Experience</h3>
               <p>2+ years <br />Lead Data Scientist</p>
-            </div>
-            <div class="details-container">
-              <img
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>B. Tech Aerospace Engineering<br />M. Tech Aerodynamics</p>
-            </div>
-          </div>
-          <div class="text-container">
-            <p>
-              Walabadubdub
-            </p>
-          </div>
         </div>
       </div>
-      <img
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-        />
-            
     </section>
+
+     <section id="projects">
+      <h1 class="title">Projects</h1>
+      <div class="section-container">
+        <div class="details-container">
+              <h3>Projects</h3>
+              <p>2+ years <br />Lead Data Scientist</p>
+        </div>
+      </div>
+    </section>
+
+      <section id="contact">
+      <h1 class="title">Contact</h1>
+      <div class="section-container">
+        <div class="details-container">
+              <h3>Contact</h3>
+              <p>2+ years <br />Lead Data Scientist</p>
+        </div>
+      </div>
+    </section>
+
         <script src="assets/js/script.js"></script>
     </body>
 </html>
